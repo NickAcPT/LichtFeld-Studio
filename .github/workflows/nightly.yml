@@ -5,8 +5,6 @@
 name: Windows Package Publish
 
 on:
-  schedule:
-    - cron: '0 1 * * *'  # 2 AM CET (1 AM UTC)
   push:
     tags:
       - 'v*'
